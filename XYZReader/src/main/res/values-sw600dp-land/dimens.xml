@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="detail_photo_height">480dp</dimen>
+    <dimen name="detail_card_top_margin">@dimen/detail_photo_height</dimen>
+    <dimen name="bar_height">56dp</dimen>
+</resources>

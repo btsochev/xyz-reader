@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">XYZ Reader</string>
+
+    <string name="action_share">Share</string>
+
+    <string name="transition_photo">transition_photo</string>
+    <string name="shared_success">Shared successfully</string>
+    <string name="shared_error">Item was not shared!</string>
+
+</resources>
