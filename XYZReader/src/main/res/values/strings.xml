@@ -7,5 +7,6 @@
     <string name="transition_photo">transition_photo</string>
     <string name="shared_success">Shared successfully</string>
     <string name="shared_error">Item was not shared!</string>
+    <string name="detail_image">Detail image</string>
 
 </resources>

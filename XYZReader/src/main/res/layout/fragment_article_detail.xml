@@ -23,6 +23,7 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:scaleType="centerCrop"
+                        android:contentDescription="@string/detail_image"
                         android:transitionName="@string/transition_photo" />
 
                     <View
