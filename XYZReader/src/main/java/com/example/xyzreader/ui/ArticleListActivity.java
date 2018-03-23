@@ -10,12 +10,14 @@ import android.content.Loader;
 import android.database.Cursor;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.text.Html;
+import android.text.Spanned;
 import android.text.format.DateUtils;
 import android.util.Log;
 import android.view.View;
@@ -41,11 +43,13 @@ public class ArticleListActivity extends AppCompatActivity implements LoaderMana
     private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.sss");
     private SimpleDateFormat outputFormat = new SimpleDateFormat();
     private GregorianCalendar START_OF_EPOCH = new GregorianCalendar(2, 1, 1);
+    private View coordinatorLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_article_list);
+        coordinatorLayout = findViewById(R.id.main_container);
 
         mSwipeRefreshLayout = findViewById(R.id.swipe_refresh_layout);
 
@@ -88,6 +92,13 @@ public class ArticleListActivity extends AppCompatActivity implements LoaderMana
 
     private void updateRefreshingUI() {
         mSwipeRefreshLayout.setRefreshing(mIsRefreshing);
+        if(!mIsRefreshing){
+            Spanned content = Html.fromHtml("<font color=\"#ffffff\">" + getString(R.string.data_refresh) + "</font>");
+            Snackbar snackbar = Snackbar
+                    .make(coordinatorLayout, content, Snackbar.LENGTH_LONG);
+            snackbar.show();
+        }
+
     }
 
     @Override

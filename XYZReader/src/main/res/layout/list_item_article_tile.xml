@@ -19,7 +19,7 @@
         android:layout_gravity="center_vertical"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:paddingRight="@dimen/list_item_padding">
+        android:paddingLeft="@dimen/list_item_padding">
 
         <TextView
             android:id="@+id/article_title"

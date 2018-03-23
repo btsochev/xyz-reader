@@ -8,5 +8,6 @@
     <string name="shared_success">Shared successfully</string>
     <string name="shared_error">Item was not shared!</string>
     <string name="detail_image">Detail image</string>
+    <string name="data_refresh">Data refreshed</string>
 
 </resources>
