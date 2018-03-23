@@ -36,6 +36,7 @@ public class ArticleDetailActivity extends AppCompatActivity
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setElevation(4);
 
         getSupportActionBar().setTitle("");
         getSupportActionBar().setSubtitle("");
