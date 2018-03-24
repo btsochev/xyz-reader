@@ -30,4 +30,6 @@
     <dimen name="fab_size">56dp</dimen>
     <dimen name="default_card_margin">8dp</dimen>
     <dimen name="list_item_padding">8dp</dimen>
+
+    <dimen name="app_bar_elevation">4dp</dimen>
 </resources>

@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://C:\Users\Boyan\Documents\WORK\udacity\advanced\xyz-reader\MakeYourAppMaterial.iml" filepath="C:\Users\Boyan\Documents\WORK\udacity\advanced\xyz-reader\MakeYourAppMaterial.iml" />
-      <module fileurl="file://$PROJECT_DIR$/XYZReader/XYZReader.iml" filepath="$PROJECT_DIR$/XYZReader/XYZReader.iml" />
+      <module fileurl="file://C:\WORK\udacity\nanodegree\xyz-reader\XYZReader\XYZReader.iml" filepath="C:\WORK\udacity\nanodegree\xyz-reader\XYZReader\XYZReader.iml" />
       <module fileurl="file://$PROJECT_DIR$/xyz-reader.iml" filepath="$PROJECT_DIR$/xyz-reader.iml" />
+      <module fileurl="file://C:\WORK\udacity\nanodegree\xyz-reader\xyz-reader.iml" filepath="C:\WORK\udacity\nanodegree\xyz-reader\xyz-reader.iml" />
     </modules>
   </component>
 </project>
