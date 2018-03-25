@@ -6,7 +6,9 @@
     android:clickable="true"
     android:focusable="true"
     android:foreground="?selectableItemBackground"
-    app:cardElevation="@dimen/card_elevation">
+    app:cardElevation="@dimen/card_elevation"
+    android:elevation="@dimen/app_bar_elevation"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
